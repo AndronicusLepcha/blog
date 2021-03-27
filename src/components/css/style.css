@@ -1,0 +1,28 @@
+
+
+
+.blog-heading{
+    font-family: 'Caveat', cursive;    
+}
+
+.post-body,
+.post-title{
+    font-family: 'Newsreader', serif;
+}
+
+.blog-header{
+    height: 600px;
+    padding-top: 150px;
+}
+
+.newsletter-form{
+    margin-top: 70px;
+}
+
+.newsletter-inp{
+    width: 350px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 3px;
+    padding: 10px;
+}
+
