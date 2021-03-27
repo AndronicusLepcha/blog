@@ -21,7 +21,7 @@ const BlogContainer = () => {
     useEffect(() => {
         const fetchBlog = async () => {
             setLoading(true);
-            const res = await axios.get('http://127.0.0.1:8000/api/posts/');
+            const res = await axios.get('https://jsonplaceholder.typicode.com/posts/');
             setBlog(res.data);
             setLoading(false);
           };
