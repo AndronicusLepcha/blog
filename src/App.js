@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/blog">
+        <Route exact path="/">
           <Header />
           <BlogContainer />
         </Route>
