@@ -17,7 +17,7 @@ const BlogContainer = () => {
     const [postsPerPage] = useState(8);
 
 
-    //Get posts from Django
+    //Get posts from Backend
     useEffect(() => {
         const fetchBlog = async () => {
             setLoading(true);
