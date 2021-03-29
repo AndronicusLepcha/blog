@@ -56,7 +56,9 @@ const BlogContainer = () => {
         let result = []
 
         if (loading){
-            <p>loading..</p>
+            return(
+                <p>loading..</p>
+            )
         }
 
         currentPosts.map(post => {
